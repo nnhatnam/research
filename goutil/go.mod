@@ -1,3 +1,3 @@
-module github.com/goutil
+module goutil
 
 go 1.15

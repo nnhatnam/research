@@ -45,7 +45,7 @@ type Queue interface {
 	//capacity restrictions. Returning true upon success and false if no space is currently available.
 	//When using a capacity-restricted queue, this method is generally preferable to Add, which can
 	//fail to insert an element only by throwing an exception
-	Offer() bool
+	Offer(e interface{}) bool
 
 	//Peek retrieves, but does not remove, the head of this queue, or return nil if the queue is empty
 	Peek() interface{}

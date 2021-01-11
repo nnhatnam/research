@@ -80,6 +80,11 @@ func (list *ArrayList) RemoveFunc(f goutil.LookupFunc) interface{} {
 	panic("implement me")
 }
 
+func (list *ArrayList) AddAll(f goutil.LookupFunc) interface{} {
+	panic("implement me")
+}
+
+
 func (list *ArrayList) Remove(index int) interface{} {
 	list.rangeCheck(index)
 
